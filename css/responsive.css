@@ -1,0 +1,540 @@
+    /*  Extra small devices (portrait phones, less than 576px) */
+    
+    @media (max-width: 575.98px) {
+        /* header part start */
+        .menu {
+            margin-left: 85%;
+        }
+        .header-content {
+            padding-top: 93px;
+        }
+        .header-content h3 {
+            font-size: 20px;
+        }
+        .header-content h1 {
+            font-size: 44px;
+            padding-bottom: 60px;
+        }
+        /* header part end */
+        /* development part start */
+        .dav-part {
+            padding: 28px 0px;
+        }
+        .dav-content h1 {
+            font-size: 40px;
+            padding: 0px 0px 6px 17px;
+            text-align: center;
+        }
+        .dav-content p {
+            padding: 0px 45px;
+            line-height: 25px;
+            font-size: 14px;
+            text-align: center;
+            padding-bottom: 0px !important;
+        }
+        .dav-img img {
+            width: 30%;
+        }
+        .dav-img {
+            text-align: center;
+        }
+        /* development part end */
+        /* brand part start */
+        .branding-part {
+            padding: 40px 0px;
+        }
+        .brand-img {
+            text-align: center;
+        }
+        .brand-img img {
+            width: 40%;
+            padding: 0px;
+        }
+        .brand-content {
+            padding: 30px 50px;
+            text-align: center;
+        }
+        .brand-content h1 {
+            font-size: 35px;
+            padding-bottom: 0px;
+        }
+        .brand-content p {
+            font-size: 14px;
+            line-height: 25px;
+            padding-bottom: 0px !important;
+        }
+        /* brand part end*/
+        /* fetured part start */
+        .fetured-part {
+            padding: 40px 0px;
+        }
+        .icon {
+            margin-left: 0px !important;
+            text-align: center;
+        }
+        .icon-content h3 {
+            font-size: 18px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .icon-content p {
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+        }
+        .coustom-pb {
+            padding-bottom: 20px !important;
+        }
+        /* fetured part end */
+        /* client part start */
+        .client-part {
+            padding: 38px 0;
+        }
+        .common-titel h1 {
+            font-size: 35px;
+        }
+        .common-titel p {
+            font-size: 14px;
+        }
+        .client-imge {
+            padding: 0px;
+            text-align: center;
+        }
+        .client-imge img {
+            width: 200px;
+            height: 200px;
+        }
+        .client-content p {
+            font-size: 15px;
+        }
+        .b-color {
+            font-size: 12px !important;
+        }
+        .client-content {
+            margin-right: 0px !important;
+            text-align: center;
+            padding: 17px 9px;
+        }
+        .client-content::before {
+            border-top: 10px solid transparent;
+            border-right: 20px solid #fff;
+            border-bottom: 10px solid transparent;
+            left: 3px;
+            top: 51%;
+        }
+        .client-content2 {
+            margin-left: 0px !important;
+            text-align: center;
+            padding: 7px 0px;
+            margin-top: 0px;
+        }
+        .client-content2::after {
+            border-top: 10px solid transparent;
+            border-left: 20px solid #fff;
+            border-bottom: 10px solid transparent;
+            right: 3px;
+            bottom: 43%;
+        }
+        .coustom-pt {
+            padding-top: 20px !important;
+        }
+        .client-content2 p {
+            font-size: 14px;
+            text-align: center;
+        }
+        .client-imge2 {
+            padding: 0px;
+            text-align: center;
+            padding-top: 30px;
+        }
+        .client-imge2 img {
+            width: 200px;
+            height: 200px;
+        }
+        /* client part end */
+        /* brand item start */
+        .brand-item {
+            padding: 40px 120px;
+        }
+        .brand-icon {
+            text-align: center;
+        }
+        .brand-icon img {
+            width: 50%;
+            padding-bottom: 20px;
+        }
+        /* brand item end */
+        /* team part start */
+        .team-member {
+            padding: 40px 0px;
+        }
+        .tem-bottom {
+            padding-top: 10px;
+        }
+        .tem-bottom p {
+            padding: 0px 93px;
+            font-size: 14px;
+            line-height: 23px;
+        }
+        .team-member-img img {
+            width: 200px;
+            height: 200px;
+        }
+        .social-icon ul li i {
+            border: 2px solid #fff;
+            font-size: 18px;
+        }
+        /* team part end */
+        /* contect part start */
+        .contect-part {
+            padding: 30px 0px;
+        }
+        .content-left-top {
+            text-align: center;
+        }
+        .content-left-top h1 {
+            font-size: 35px;
+        }
+        .content-left-top p {
+            font-size: 14px;
+        }
+        .social-contect {
+            text-align: center;
+        }
+        .from-coustom {
+            padding: 0px 10px;
+        }
+        .footer-part h3 {
+            padding: 15px 0px;
+        }
+        /* contect part end */
+    }
+    /* Small devices (landscape phones, 576px and up) */
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        /* header part start */
+        .menu {
+            margin-left: 86%;
+        }
+        .header-content {
+            padding-top: 93px;
+        }
+        .header-content h3 {
+            font-size: 18px;
+        }
+        .header-content h1 {
+            font-size: 36px;
+        }
+        /* header part end */
+        /* development part start */
+        .dav-part {
+            padding: 35px 0px;
+        }
+        .dav-content h1 {
+            font-size: 25px;
+            padding: 0px 0px 10px 17px;
+        }
+        .dav-content p {
+            font-size: 14px;
+            padding: 0px 20px;
+            line-height: 23px;
+            padding-bottom: 0px !important;
+        }
+        .dav-img img {
+            width: 78%;
+            margin-top: 90px;
+        }
+        /* development part end*/
+        /* branding part start */
+        .branding-part {
+            padding: 35px 0px;
+        }
+        .brand-content {
+            padding: 0px 15px;
+        }
+        .brand-content h1 {
+            font-size: 25px;
+            padding-bottom: 15px;
+        }
+        .brand-content p {
+            font-size: 14px;
+            line-height: 28px;
+        }
+        .brand-img img {
+            width: 80%;
+            padding: 122px 0px;
+        }
+        /* branding part end */
+        /* feturd part start */
+        .fetured-part {
+            padding: 60px 0px;
+        }
+        .icon {
+            margin-left: 0px !important;
+        }
+        .icon i {
+            width: 60px;
+            height: 60px;
+            font-size: 25px;
+        }
+        .coustom-pb {
+            padding-bottom: 20px !important;
+        }
+        .icon-content {
+            padding: 0px 33px;
+        }
+        .icon-content h3 {
+            font-size: 16px;
+        }
+        .icon-content p {
+            font-size: 14px;
+            line-height: 25px;
+        }
+        /* feturd part end */
+        /* client part start */
+        .client-part {
+            padding: 38px 0;
+        }
+        .common-titel h1 {
+            font-size: 35px;
+        }
+        .common-titel p {
+            font-size: 14px;
+        }
+        .client-imge {
+            padding: 0px;
+            text-align: center;
+        }
+        .client-imge img {
+            width: 200px;
+            height: 200px;
+        }
+        .client-content p {
+            font-size: 15px;
+        }
+        .b-color {
+            font-size: 12px !important;
+        }
+        .client-content {
+            margin-right: 0px !important;
+            text-align: center;
+            padding: 17px 9px;
+        }
+        .client-content2 {
+            margin-left: 0px !important;
+            text-align: center;
+            padding: 17px 9px;
+            margin-top: 0px;
+        }
+        .client-content2 p {
+            font-size: 14px;
+            text-align: center;
+        }
+        .client-imge2 {
+            padding: 0px;
+            text-align: center;
+            padding-top: 30px;
+        }
+        .client-imge2 img {
+            width: 200px;
+            height: 200px;
+        }
+        /* client part end */
+        /* brand item start */
+        .brand-icon img {
+            width: 85%;
+            padding-bottom: 25px;
+        }
+        /* brand item end */
+        /* team part start */
+        .team-member {
+            padding: 40px 0px;
+        }
+        .tem-bottom {
+            padding-top: 10px;
+        }
+        .tem-bottom p {
+            padding: 0px 93px;
+            font-size: 14px;
+            line-height: 23px;
+        }
+        .team-member-img img {
+            width: 200px;
+            height: 200px;
+        }
+        .social-icon ul li i {
+            border: 2px solid #fff;
+            font-size: 18px;
+        }
+        /* team part end */
+        /* contect part start */
+        .content-left-top {
+            text-align: center;
+        }
+        .contect-part {
+            padding: 50px 0px;
+        }
+        .content-left-top h1 {
+            font-size: 45px;
+        }
+        .content-left-top p {
+            font-size: 12px;
+            padding: 0px 72px;
+        }
+        .icon-text {
+            font-size: 16px;
+        }
+        .from-coustom {
+            padding: 20px 26px;
+        }
+        .form-style {
+            padding-top: 20px;
+        }
+        .footer-part h3 {
+            padding: 20px 0px;
+        }
+        /* contect part end */
+    }
+    /* Medium devices (tablets, 768px and up) */
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        /* header part start */
+        .menu {
+            margin-left: 90%;
+        }
+        .header-content h3 {
+            font-size: 18px;
+        }
+        .header-content h1 {
+            font-size: 36px;
+        }
+        /* header part end */
+        /* development part start */
+        .dav-part {
+            padding: 50px 0px;
+        }
+        .dav-content h1 {
+            font-size: 50px;
+            padding: 0px 0px 26px 17px;
+        }
+        .dav-content p {
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .dav-img img {
+            width: 92%;
+            margin-top: 76px;
+        }
+        /* development part end */
+        /* brand part start */
+        .branding-part {
+            padding: 50px 0px;
+        }
+        .brand-content {
+            padding: 0px 45px;
+        }
+        .brand-content h1 {
+            font-size: 45px;
+        }
+        .brand-content p {
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .brand-img img {
+            width: 100%;
+            padding: 122px 0px;
+        }
+        /* brand part start */
+        /* fetured part start */
+        .icon {
+            margin-left: 0px !important;
+        }
+        .icon-content p {
+            font-size: 16px;
+            line-height: 28px;
+        }
+        /* fetured part end */
+        /*  client part start*/
+        /* Its for fist client */
+        .common-titel h1 {
+            font-size: 50px;
+        }
+        .common-titel p {
+            font-size: 18px;
+        }
+        .client-imge {
+            padding: 0px;
+        }
+        .client-content p {
+            font-size: 18px;
+            color: #777777;
+            padding: 0px 45px !important;
+        }
+        .b-color {
+            color: #7690c5 !important;
+            font-size: 14px !important;
+        }
+        .client-imge img {
+            width: 220px;
+            height: 220px;
+        }
+        /* Its for client 2 */
+        .client-content2 p {
+            font-size: 18px;
+            color: #777777;
+            padding: 0px 45px !important;
+        }
+        .client-imge2 {
+            padding: 0px;
+        }
+        .client-imge2 img {
+            width: 220px;
+            height: 220px;
+        }
+        /*  client part end*/
+        /* brand item start */
+        .brand-item {
+            padding: 70px 85px 70px 100px;
+        }
+        /* brand item end */
+        /* team member part start */
+        .profile {
+            padding: 0px;
+        }
+        .team-member-img img {
+            width: 200px;
+            height: 200px;
+        }
+        .social-icon ul li i {
+            border: 2px solid #fff;
+            font-size: 18px;
+        }
+        .tem-bottom p {
+            padding: 0px 63px;
+            font-size: 18px;
+        }
+        /* team member part end */
+        /* contect part start */
+        .content-left-top h1 {
+            font-size: 50px;
+        }
+        .content-left-top p {
+            font-size: 14px;
+        }
+        .coustom-pt {
+            padding-top: 0px !important;
+        }
+        .icon-text {
+            font-size: 14px;
+        }
+        .from-coustom {
+            padding: 0px 20px;
+        }
+        /* contect part end */
+    }
+    /* Large devices (desktops, 992px and up) */
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) {}
+    /* Extra large devices (large desktops, 1200px and up) */
+    
+    @media (min-width: 1200px) {}

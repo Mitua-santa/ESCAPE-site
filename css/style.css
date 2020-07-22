@@ -1,0 +1,382 @@
+                body {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                * {
+                    font-family: 'Lato', sans-serif;
+                }
+                
+                html {
+                    scroll-behavior: smooth;
+                }
+                /* header area start */
+                /* Its for manu part */
+                
+                .header-part {
+                 background: url(../img/banner-imge.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    height: 100vh;
+                    padding: 20px 0px 80px 0px;
+                }
+                
+                .header-part:after {
+                    position: absolute;
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    top: 0px;
+                    left: 0px;
+                    background: rgb(49, 38, 63, 0.5);
+                }
+                
+                .main-manu-brand {
+                    z-index: 100;
+                    position: relative;
+                }
+                
+                .menu ul li {
+                    font-size: 18px;
+                    font-weight: 400;
+                    padding: 0px 10px;
+                }
+                
+                .menu ul li a {
+                    color: #ffffff !important;
+                }
+                /* Its header-conter style */
+                
+                .header-content {
+                    padding-top: 120px;
+                    color: #ffffff;
+                    z-index: 100;
+                    position: relative;
+                }
+                
+                .header-content h3 {
+                    font-size: 32px;
+                    font-weight: normal;
+                }
+                
+                .header-content h1 {
+                    font-size: 80px;
+                    padding-bottom: 80px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                /* Its for header btn */
+                
+                .coustom-btn {
+                    color: #ffffff;
+                    font-weight: 700;
+                    font-size: 25px;
+                    border: 2px solid #fff;
+                    padding: 10px 60px;
+                }
+                
+                .coustom-btn:hover {
+                    color: #ffffff;
+                }
+                /* header area end */
+                /* development part start */
+                
+                .dav-part {
+                    padding: 100px 0px;
+                }
+                
+                .dav-content h1 {
+                    font-size: 60px;
+                    padding: 0px 0px 40px 17px;
+                }
+                
+                .dav-content p {
+                    font-size: 18px;
+                    padding: 0px 17px;
+                    line-height: 30px;
+                }
+                
+                .dav-content p {
+                    font-size: 18px;
+                    padding: 0px 17px;
+                    line-height: 30px;
+                }
+                /* dav-img style */
+                
+                .dav-img img {
+                    width: 81%;
+                }
+                /* development part end */
+                /* branding-part start */
+                
+                .branding-part {
+                    padding: 100px 0px;
+                    background: #faf7f7;
+                }
+                /* Its brand img style */
+                
+                .brand-img img {
+                    width: 90%;
+                    padding: 40px 13px;
+                }
+                /* Its for brand content style */
+                
+                .brand-content {
+                    padding: 0px 45px;
+                }
+                
+                .brand-content h1 {
+                    font-size: 60px;
+                    padding-bottom: 40px;
+                }
+                
+                .brand-content p {
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+                
+                .brand-content p {
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+                /* branding-part end */
+                /* fetured part start */
+                
+                .fetured-part {
+                    padding: 100px 0px;
+                }
+                
+                .icon i {
+                    width: 75px;
+                    height: 75px;
+                    background-color: black;
+                    border-radius: 50%;
+                    color: #fff;
+                    text-align: center;
+                    padding: 18px 0px;
+                    font-size: 35px;
+                }
+                
+                .icon-content {
+                    padding: 0px 47px;
+                }
+                
+                .icon-content h3 {
+                    font-size: 22px;
+                    font-weight: 700;
+                }
+                
+                .icon-content p {
+                    color: #777777;
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+                /* fetured part end */
+                /* client part start */
+                
+                .client-part {
+                    padding: 100px 0;
+                    background: #faf7f7;
+                }
+                
+                .common-titel h1 {
+                    font-size: 60px;
+                }
+                
+                .common-titel p {
+                    font-size: 22px;
+                    color: #777777;
+                }
+                
+                .client-imge {
+                    padding: 0px 20px;
+                }
+                
+                .client-imge img {
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 50%;
+                    border: 4px solid #728AAF;
+                }
+                
+                .client-content p {
+                    font-size: 26px;
+                    color: #777777;
+                    padding: 0px 35px !important;
+                }
+                
+                .b-color {
+                    color: #7690c5 !important;
+                    font-size: 20px !important;
+                }
+                
+                .client-content {
+                    border: 1px solid #f1ebeb;
+                    background: #fff;
+                    padding: 23px 14px;
+                    margin-top: 32px;
+                }
+                
+                .client-content::before {
+                    content: '';
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    border-top: 15px solid transparent;
+                    border-right: 25px solid #fff;
+                    border-bottom: 15px solid transparent;
+                    left: -9px;
+                    top: 43%;
+                }
+                /* client img2 style */
+                
+                .client-imge2 {
+                    padding: 0px 50px;
+                }
+                
+                .client-imge2 img {
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 50%;
+                    border: 4px solid #2B4A67;
+                }
+                
+                .client-content2 p {
+                    font-size: 26px;
+                    color: #777777;
+                    padding: 0px 35px !important;
+                }
+                
+                .b-color {
+                    color: #7690c5 !important;
+                    font-size: 20px !important;
+                }
+                
+                .client-content2 {
+                    border: 1px solid #f1ebeb;
+                    padding: 23px 14px;
+                    margin-top: 33px;
+                    background: #fff;
+                }
+                
+                .client-content2::after {
+                    content: '';
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    border-top: 15px solid transparent;
+                    border-left: 25px solid #fff;
+                    border-bottom: 15px solid transparent;
+                    right: -9px;
+                    bottom: 43%;
+                }
+                /* client part end */
+                /* brand item start */
+                
+                .brand-item {
+                    padding: 70px 122px 70px 170px;
+                }
+                
+                .brand-icon img {
+                    width: 75%;
+                }
+                /* brand item end */
+                /* team-member part start */
+                
+                .team-member {
+                    padding: 100px 0px;
+                    background: #111111;
+                    color: #fff;
+                }
+                
+                .profile {
+                    padding: 0px 90px;
+                }
+                
+                .team-member-img img {
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 50%;
+                    border: 6px solid #ddd;
+                }
+                
+                .social-icon ul li i {
+                    color: #fff;
+                    border: 3px solid #fff;
+                    padding: 10px 10px;
+                    border-radius: 50%;
+                    font-size: 20px;
+                    width: 45px;
+                }
+                
+                .tem-bottom {
+                    padding-top: 50px;
+                }
+                
+                .tem-bottom p {
+                    padding: 0px 183px;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #ebebeb;
+                }
+                /* team-member part end */
+                /* contect part start */
+                
+                .contect-part {
+                    padding: 100px 0px;
+                    background: #7690c5;
+                }
+                
+                .content-left-top {
+                    padding: 0px 30px;
+                    color: #fff;
+                }
+                
+                .content-left-top h1 {
+                    font-size: 60px;
+                }
+                
+                .content-left-top p {
+                    font-size: 16px;
+                }
+                
+                .social-contect {
+                    padding: 0px 30px;
+                    color: #fff;
+                }
+                
+                .contect-icon i {
+                    width: 50px;
+                    font-size: 25px;
+                }
+                
+                .icon-text {
+                    font-size: 18px;
+                }
+                /* Its for from area */
+                
+                .from-coustom {
+                    padding: 30px 26px;
+                    color: #bbbbbb;
+                }
+                /* Its for from end */
+                /*contect part end */
+                /* footer-part start */
+                
+                .footer-part {
+                    padding: 0px 50px;
+                    background: #7690c5;
+                }
+                
+                .footer-part hr {
+                    background-color: #ddd;
+                }
+                
+                .footer-part h3 {
+                    color: #fff;
+                    font-size: 16px;
+                    text-align: center;
+                    padding: 40px 0px;
+                }
+                /* footer-part end */
